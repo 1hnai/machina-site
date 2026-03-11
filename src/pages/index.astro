@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Machina"
+  description="The AI briefing for people who build and run things. Practical AI intelligence for operators and decision-makers."
+>
+  <section style="text-align:center; padding: 4rem 0 3rem;">
+    <p style="font-size:0.85rem; font-weight:600; text-transform:uppercase; letter-spacing:0.1em; color:var(--brand-accent); margin-bottom:1rem;">AI Business Intelligence</p>
+    <h1 style="font-size:clamp(2rem,5vw,3rem); font-weight:800; line-height:1.15; letter-spacing:-0.03em; margin-bottom:1.25rem;">
+      The AI briefing for people<br>who build and run things.
+    </h1>
+    <p style="font-size:1.1rem; color:var(--brand-muted); max-width:520px; margin:0 auto 2.5rem;">
+      Not another AI news dump. Machina covers AI through the lens of <strong style="color:var(--brand-text)">business impact</strong> —
+      which tools move revenue, real deployment case studies, and weekly tool teardowns.
+    </p>
+    <div class="subscribe-form" style="margin:0 auto; max-width:420px;">
+      <input type="email" placeholder="your@email.com" aria-label="Email address" />
+      <button class="btn">Subscribe free</button>
+    </div>
+    <p style="font-size:0.8rem; color:var(--brand-muted); margin-top:0.75rem;">Join operators and decision-makers getting smarter on AI every week. Free.</p>
+  </section>
+
+  <hr style="border:none; border-top:1px solid var(--brand-border); margin: 2rem 0;" />
+
+  <section style="margin: 3rem 0;">
+    <h2 style="font-size:1.1rem; font-weight:700; margin-bottom:1.5rem; color:var(--brand-muted); text-transform:uppercase; letter-spacing:0.05em; font-size:0.85rem;">What we cover</h2>
+    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:1.5rem;">
+      <div style="background:var(--brand-surface); border:1px solid var(--brand-border); border-radius:10px; padding:1.25rem;">
+        <div style="font-size:1.5rem; margin-bottom:0.5rem;">🔧</div>
+        <h3 style="font-weight:700; margin-bottom:0.4rem;">Tool Teardowns</h3>
+        <p style="font-size:0.9rem; color:var(--brand-muted);">Deep dives on the AI tools actually moving revenue — not hype, just results.</p>
+      </div>
+      <div style="background:var(--brand-surface); border:1px solid var(--brand-border); border-radius:10px; padding:1.25rem;">
+        <div style="font-size:1.5rem; margin-bottom:0.5rem;">📊</div>
+        <h3 style="font-weight:700; margin-bottom:0.4rem;">Case Studies</h3>
+        <p style="font-size:0.9rem; color:var(--brand-muted);">Real deployments, real numbers. How operators are using AI to build competitive moats.</p>
+      </div>
+      <div style="background:var(--brand-surface); border:1px solid var(--brand-border); border-radius:10px; padding:1.25rem;">
+        <div style="font-size:1.5rem; margin-bottom:0.5rem;">📡</div>
+        <h3 style="font-weight:700; margin-bottom:0.4rem;">Signal vs. Noise</h3>
+        <p style="font-size:0.9rem; color:var(--brand-muted);">The week's AI news that actually matters — filtered for business impact.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="subscribe-bar">
+    <h2>Get smarter on AI every week.</h2>
+    <p>The briefing read by operators, builders, and decision-makers in 40+ countries.</p>
+    <div class="subscribe-form">
+      <input type="email" placeholder="your@email.com" aria-label="Email address" />
+      <button class="btn">Subscribe — it's free</button>
+    </div>
+  </div>
+
+  <section style="margin: 3rem 0;">
+    <h2 style="font-size:1rem; font-weight:700; margin-bottom:1.5rem; color:var(--brand-muted); text-transform:uppercase; letter-spacing:0.05em;">Latest Articles</h2>
+    <p style="color:var(--brand-muted); font-style:italic;">First issue coming soon. <a href="/articles">Browse the archive</a> once we launch.</p>
+  </section>
+</BaseLayout>
